@@ -1,5 +1,5 @@
 # PHP-MovieStar
-MovieStar! Ambiente compartilhado entre todos os cinéfilos que queiram registrar a crítica/review de um filme que tanto ama (ou nem tanto assim).
+MovieStar! Ambiente compartilhado entre todos os cinéfilos que queiram registrar a crítica/review de um filme que tanto amam! (Ou nem tanto assim...).
 
 # Banco De Dados
 Utilizado MySQL, todas as instruções do PHP para o banco trabalhei com statements, optmizando a comunição e evitando SQLInjection.

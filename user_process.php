@@ -40,7 +40,6 @@ if($type === "update")
         if(in_array($image, $jpgArray))
         {
             $imageFile = imagecreatefromjpeg($image["tmp_name"]);
-
         }
         else
         {   

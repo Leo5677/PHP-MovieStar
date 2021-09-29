@@ -264,9 +264,11 @@ body{
     height: 3rem;
 }
 
-.card-tile a{
+.card-title a{
     font-size: 16px;
     color: #FFF;
+    text-decoration: none;
+
 }
 
 .fas.fa-star{

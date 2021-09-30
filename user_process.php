@@ -67,13 +67,20 @@ else if($type === "changepassword")
 
     if($password == $confirmpassword)
     {
-        $user = new User();
+        if(empty($password) or empty($confirmpassword))
+        {
+            $message->setMessage("Passwords are blank", "error", "back");
+        }
+        else
+        {
+            $user = new User();
 
-        $finalPassword = $user->generatePassword($password);
-        $user->password = $finalPassword;
-        $user->id_users = $id_users;
+            $finalPassword = $user->generatePassword($password);
+            $user->password = $finalPassword;
+            $user->id_users = $id_users;
 
-        $userDao->changePassword($user);
+            $userDao->changePassword($user);
+        }
     }
     else
     {

@@ -386,7 +386,8 @@ body{
     margin-top: 30px;
 }
 
-.edit-profile-page .card-btn{
+.edit-profile-page .card-btn,
+#insert-movie-container .card-btn{
     width: auto;
 }
 
@@ -448,6 +449,77 @@ body{
 #category:hover{
     cursor: pointer;
 }
+
+
+/* Dashboard */
+#insert-movie-container{
+    text-align: right;
+}
+
+#movies-dashboard .table{
+    color: #FFF;
+}
+
+#movies-dashboard .table th{
+    border-top: none;
+}
+
+#movies-dashboard .table tr{
+    padding: 15px 0;
+}
+
+.table-movie-title{
+    color: #FFF;
+    font-weight: bold;
+    transition: .5s;
+    text-decoration: none;
+}
+
+.table-movie-title:hover{
+    color: #FCBA03;
+}
+
+.actions-column{
+    max-width: 75px;
+    text-align: center;
+}
+
+.actions-column form{
+    display: inline-block;
+}
+
+.edit-btn, 
+.delete-btn{
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 0 5px;
+    font-weight: bold;
+    transition: .5s;
+    border: none;
+}
+
+.edit-btn{
+    background-color: #5799EF;
+    color: #FFF;
+}
+
+.edit-btn:hover{
+    background-color: transparent;
+    color: #5799EF;
+    text-decoration: none;
+}
+
+.delete-btn {
+    background-color: #d84453;
+    color: #FFF;
+}
+
+.delete-btn:hover {
+    background-color: transparent;
+    color: #d84453;
+    text-decoration: none;
+}
+
 
 
 /* Footer */

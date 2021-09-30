@@ -42,7 +42,7 @@ if ($userData->image == "") {
                             </label>
                             <input type="text" readonly class="form-control input-edit-profile disabled" id="email" name="email" placeholder="Type your email..." value="<?= $userData->email ?>">
                         </div>
-                        <input type="submit" class="btn card-btn" value="Change Name">
+                        <input type="submit" class="btn card-btn" value="Change Info.">
                     </div>
                     <div class="col-md-4">
                         <div id="profile-image-container" style="background-image: url('<?= $BASE_URL ?>img/users/<?= $userData->image ?>');"></div>
